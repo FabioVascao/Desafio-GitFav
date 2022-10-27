@@ -81,3 +81,16 @@ header button {
   white-space: nowrap;
   border-width: 0;
 }
+table {
+  width: 112rem;
+  font-family: var(--font-Roboto);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 160%;
+  color: var(--text-table);
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+}
+thead {  
+  background-color: var(--bg-table-primary);
+}
