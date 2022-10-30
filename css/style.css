@@ -161,10 +161,4 @@ td .remover {
   line-height: 2.5rem;
   color: #4E5455;
   gap: 3rem;
-  display: none;
 }
-.hide img {
-  width: 13.2rem;
-  height: 12.5rem;
-}
-
