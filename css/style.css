@@ -144,7 +144,7 @@ td.user a p {
 td.user a span {
   font-weight: 400;
 }
-td .remove {
+td .remover {
   background: none;
   border: none;
   color: var(--text-remove);
