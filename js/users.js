@@ -44,6 +44,7 @@ export class Favorites {
     this.entries = filteredEntries
     this.update()
     this.save()
+    this.userExist()
   }
 }
 
@@ -126,9 +127,9 @@ export class FavoritesView extends Favorites {
     const teste2 = teste.length
     const nada = document.querySelector('.nada')
     if(teste2 === 0) {
-      nada.classList.add('hide')
-    } else {
       nada.classList.remove('hide')
+    } else {
+      nada.classList.add('hide')
     }
   }
 }

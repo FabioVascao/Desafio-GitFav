@@ -150,15 +150,21 @@ td .remover {
   color: var(--text-remove);
   cursor: pointer;
 }
-.hide {
-  height: 32rem;
-  background-color: var(--bg-table-secondary);
+.nada {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+.hide {
+  height: 32rem;
+  background-color: var(--bg-table-secondary);
   font-weight: 700;
   font-size: 4rem;
   line-height: 2.5rem;
   color: #4E5455;
   gap: 3rem;
+  display: none;
 }
+
